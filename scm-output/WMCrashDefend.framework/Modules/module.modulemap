@@ -1,0 +1,6 @@
+framework module WMCrashDefend {
+  umbrella header "WMCrashDefend.h"
+
+  export *
+  module * { export * }
+}

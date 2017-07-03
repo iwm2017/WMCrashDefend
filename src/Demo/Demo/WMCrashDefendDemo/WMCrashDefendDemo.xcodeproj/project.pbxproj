@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE131961E69460900F5F54D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131951E69460900F5F54D /* main.m */; };
+		2BE131991E69460900F5F54D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131981E69460900F5F54D /* AppDelegate.m */; };
+		2BE1319C1E69460900F5F54D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1319B1E69460900F5F54D /* ViewController.m */; };
+		2BE1319F1E69460900F5F54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1319D1E69460900F5F54D /* Main.storyboard */; };
+		2BE131A11E69460900F5F54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE131A01E69460900F5F54D /* Assets.xcassets */; };
+		2BE131A41E69460900F5F54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE131A21E69460900F5F54D /* LaunchScreen.storyboard */; };
+		2BE131AF1E69460A00F5F54D /* WMCrashDefendDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131AE1E69460A00F5F54D /* WMCrashDefendDemoTests.m */; };
+		2BE131D51E6946D800F5F54D /* TestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131BA1E6946D800F5F54D /* TestDetailViewController.m */; };
+		2BE131D61E6946D800F5F54D /* TestObjectParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131BC1E6946D800F5F54D /* TestObjectParent.m */; };
+		2BE131D71E6946D800F5F54D /* TestObjectSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131BE1E6946D800F5F54D /* TestObjectSub.m */; };
+		2BE131D81E6946D800F5F54D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131C01E6946D800F5F54D /* TestViewController.m */; };
+		2BE131E01E6946D800F5F54D /* WMTestKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE131D01E6946D800F5F54D /* WMTestKVO.m */; };
+		5333CC1A1E7A8765006BBEA9 /* WMCrashDefend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5333CC191E7A8753006BBEA9 /* WMCrashDefend.framework */; };
+		5333CC1C1E7A8929006BBEA9 /* WMCrashDefend.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5333CC1B1E7A8929006BBEA9 /* WMCrashDefend.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE131AB1E69460A00F5F54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE131891E69460900F5F54D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE131901E69460900F5F54D;
+			remoteInfo = WMCrashDefendDemo;
+		};
+		5333CC181E7A8753006BBEA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5333CC141E7A8753006BBEA9 /* WMCrashDefend.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE131ED1E69475100F5F54D;
+			remoteInfo = WMCrashDefend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE131911E69460900F5F54D /* WMCrashDefendDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCrashDefendDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE131951E69460900F5F54D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BE131971E69460900F5F54D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BE131981E69460900F5F54D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BE1319A1E69460900F5F54D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BE1319B1E69460900F5F54D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BE1319E1E69460900F5F54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BE131A01E69460900F5F54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE131A31E69460900F5F54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE131A51E69460900F5F54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE131AA1E69460A00F5F54D /* WMCrashDefendDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCrashDefendDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE131AE1E69460A00F5F54D /* WMCrashDefendDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMCrashDefendDemoTests.m; sourceTree = "<group>"; };
+		2BE131B01E69460A00F5F54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE131B91E6946D800F5F54D /* TestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDetailViewController.h; sourceTree = "<group>"; };
+		2BE131BA1E6946D800F5F54D /* TestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDetailViewController.m; sourceTree = "<group>"; };
+		2BE131BB1E6946D800F5F54D /* TestObjectParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjectParent.h; sourceTree = "<group>"; };
+		2BE131BC1E6946D800F5F54D /* TestObjectParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectParent.m; sourceTree = "<group>"; };
+		2BE131BD1E6946D800F5F54D /* TestObjectSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjectSub.h; sourceTree = "<group>"; };
+		2BE131BE1E6946D800F5F54D /* TestObjectSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectSub.m; sourceTree = "<group>"; };
+		2BE131BF1E6946D800F5F54D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2BE131C01E6946D800F5F54D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2BE131CF1E6946D800F5F54D /* WMTestKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTestKVO.h; sourceTree = "<group>"; };
+		2BE131D01E6946D800F5F54D /* WMTestKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTestKVO.m; sourceTree = "<group>"; };
+		2BE5B13D1E6D850900AF18D3 /* WMCrashDefend.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WMCrashDefend.framework; sourceTree = "<group>"; };
+		5333CC141E7A8753006BBEA9 /* WMCrashDefend.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WMCrashDefend.xcodeproj; path = ../../../../WMCrashDefend/WMCrashDefend.xcodeproj; sourceTree = "<group>"; };
+		5333CC1B1E7A8929006BBEA9 /* WMCrashDefend.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMCrashDefend.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE1318E1E69460900F5F54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333CC1A1E7A8765006BBEA9 /* WMCrashDefend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE131A71E69460A00F5F54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE131881E69460900F5F54D = {
+			isa = PBXGroup;
+			children = (
+				2BE131931E69460900F5F54D /* WMCrashDefendDemo */,
+				2BE131AD1E69460A00F5F54D /* WMCrashDefendDemoTests */,
+				2BE131921E69460900F5F54D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE131921E69460900F5F54D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE131911E69460900F5F54D /* WMCrashDefendDemo.app */,
+				2BE131AA1E69460A00F5F54D /* WMCrashDefendDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE131931E69460900F5F54D /* WMCrashDefendDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5333CC141E7A8753006BBEA9 /* WMCrashDefend.xcodeproj */,
+				2BE131971E69460900F5F54D /* AppDelegate.h */,
+				2BE131981E69460900F5F54D /* AppDelegate.m */,
+				2BE1319A1E69460900F5F54D /* ViewController.h */,
+				2BE1319B1E69460900F5F54D /* ViewController.m */,
+				2BE131B91E6946D800F5F54D /* TestDetailViewController.h */,
+				2BE131BA1E6946D800F5F54D /* TestDetailViewController.m */,
+				2BE131BB1E6946D800F5F54D /* TestObjectParent.h */,
+				2BE131BC1E6946D800F5F54D /* TestObjectParent.m */,
+				2BE131BD1E6946D800F5F54D /* TestObjectSub.h */,
+				2BE131BE1E6946D800F5F54D /* TestObjectSub.m */,
+				2BE131BF1E6946D800F5F54D /* TestViewController.h */,
+				2BE131C01E6946D800F5F54D /* TestViewController.m */,
+				2BE131CF1E6946D800F5F54D /* WMTestKVO.h */,
+				2BE131D01E6946D800F5F54D /* WMTestKVO.m */,
+				2BE1319D1E69460900F5F54D /* Main.storyboard */,
+				2BE131A01E69460900F5F54D /* Assets.xcassets */,
+				2BE131A21E69460900F5F54D /* LaunchScreen.storyboard */,
+				2BE131A51E69460900F5F54D /* Info.plist */,
+				2BE131941E69460900F5F54D /* Supporting Files */,
+			);
+			path = WMCrashDefendDemo;
+			sourceTree = "<group>";
+		};
+		2BE131941E69460900F5F54D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5333CC1B1E7A8929006BBEA9 /* WMCrashDefend.bundle */,
+				2BE5B13D1E6D850900AF18D3 /* WMCrashDefend.framework */,
+				2BE131951E69460900F5F54D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BE131AD1E69460A00F5F54D /* WMCrashDefendDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE131AE1E69460A00F5F54D /* WMCrashDefendDemoTests.m */,
+				2BE131B01E69460A00F5F54D /* Info.plist */,
+			);
+			path = WMCrashDefendDemoTests;
+			sourceTree = "<group>";
+		};
+		5333CC151E7A8753006BBEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5333CC191E7A8753006BBEA9 /* WMCrashDefend.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE131901E69460900F5F54D /* WMCrashDefendDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE131B31E69460A00F5F54D /* Build configuration list for PBXNativeTarget "WMCrashDefendDemo" */;
+			buildPhases = (
+				2BE1318D1E69460900F5F54D /* Sources */,
+				2BE1318E1E69460900F5F54D /* Frameworks */,
+				2BE1318F1E69460900F5F54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMCrashDefendDemo;
+			productName = WMCrashDefendDemo;
+			productReference = 2BE131911E69460900F5F54D /* WMCrashDefendDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE131A91E69460A00F5F54D /* WMCrashDefendDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE131B61E69460A00F5F54D /* Build configuration list for PBXNativeTarget "WMCrashDefendDemoTests" */;
+			buildPhases = (
+				2BE131A61E69460A00F5F54D /* Sources */,
+				2BE131A71E69460A00F5F54D /* Frameworks */,
+				2BE131A81E69460A00F5F54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE131AC1E69460A00F5F54D /* PBXTargetDependency */,
+			);
+			name = WMCrashDefendDemoTests;
+			productName = WMCrashDefendDemoTests;
+			productReference = 2BE131AA1E69460A00F5F54D /* WMCrashDefendDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE131891E69460900F5F54D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = guoyang;
+				TargetAttributes = {
+					2BE131901E69460900F5F54D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2BE131A91E69460A00F5F54D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 888LCUA47B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BE131901E69460900F5F54D;
+					};
+				};
+			};
+			buildConfigurationList = 2BE1318C1E69460900F5F54D /* Build configuration list for PBXProject "WMCrashDefendDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE131881E69460900F5F54D;
+			productRefGroup = 2BE131921E69460900F5F54D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5333CC151E7A8753006BBEA9 /* Products */;
+					ProjectRef = 5333CC141E7A8753006BBEA9 /* WMCrashDefend.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2BE131901E69460900F5F54D /* WMCrashDefendDemo */,
+				2BE131A91E69460A00F5F54D /* WMCrashDefendDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5333CC191E7A8753006BBEA9 /* WMCrashDefend.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WMCrashDefend.framework;
+			remoteRef = 5333CC181E7A8753006BBEA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE1318F1E69460900F5F54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE131A41E69460900F5F54D /* LaunchScreen.storyboard in Resources */,
+				2BE131A11E69460900F5F54D /* Assets.xcassets in Resources */,
+				2BE1319F1E69460900F5F54D /* Main.storyboard in Resources */,
+				5333CC1C1E7A8929006BBEA9 /* WMCrashDefend.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE131A81E69460A00F5F54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE1318D1E69460900F5F54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE1319C1E69460900F5F54D /* ViewController.m in Sources */,
+				2BE131D71E6946D800F5F54D /* TestObjectSub.m in Sources */,
+				2BE131E01E6946D800F5F54D /* WMTestKVO.m in Sources */,
+				2BE131D81E6946D800F5F54D /* TestViewController.m in Sources */,
+				2BE131991E69460900F5F54D /* AppDelegate.m in Sources */,
+				2BE131961E69460900F5F54D /* main.m in Sources */,
+				2BE131D61E6946D800F5F54D /* TestObjectParent.m in Sources */,
+				2BE131D51E6946D800F5F54D /* TestDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE131A61E69460A00F5F54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE131AF1E69460A00F5F54D /* WMCrashDefendDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE131AC1E69460A00F5F54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE131901E69460900F5F54D /* WMCrashDefendDemo */;
+			targetProxy = 2BE131AB1E69460A00F5F54D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE1319D1E69460900F5F54D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE1319E1E69460900F5F54D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BE131A21E69460900F5F54D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE131A31E69460900F5F54D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE131B11E69460A00F5F54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BE131B21E69460A00F5F54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE131B41E69460A00F5F54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WMCrashDefendDemo",
+				);
+				INFOPLIST_FILE = WMCrashDefendDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoyang.WMCrashDefendDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BE131B51E69460A00F5F54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WMCrashDefendDemo",
+				);
+				INFOPLIST_FILE = WMCrashDefendDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoyang.WMCrashDefendDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BE131B71E69460A00F5F54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 888LCUA47B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WMCrashDefendDemo",
+				);
+				INFOPLIST_FILE = WMCrashDefendDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoyang.WMCrashDefendDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMCrashDefendDemo.app/WMCrashDefendDemo";
+			};
+			name = Debug;
+		};
+		2BE131B81E69460A00F5F54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 888LCUA47B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WMCrashDefendDemo",
+				);
+				INFOPLIST_FILE = WMCrashDefendDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoyang.WMCrashDefendDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMCrashDefendDemo.app/WMCrashDefendDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE1318C1E69460900F5F54D /* Build configuration list for PBXProject "WMCrashDefendDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE131B11E69460A00F5F54D /* Debug */,
+				2BE131B21E69460A00F5F54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE131B31E69460A00F5F54D /* Build configuration list for PBXNativeTarget "WMCrashDefendDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE131B41E69460A00F5F54D /* Debug */,
+				2BE131B51E69460A00F5F54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE131B61E69460A00F5F54D /* Build configuration list for PBXNativeTarget "WMCrashDefendDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE131B71E69460A00F5F54D /* Debug */,
+				2BE131B81E69460A00F5F54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE131891E69460900F5F54D /* Project object */;
+}
